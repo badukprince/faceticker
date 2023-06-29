@@ -1,0 +1,189 @@
+@media all and (max-width: 768px ) {
+
+    .buttons {
+        margin-top: 55vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        margin-left: 1vw;
+        margin-right: 1vw;
+        height: 100%;
+        border-radius: 30px;
+    }
+
+    .KakaoButton {
+        margin-top: 5vh;
+        width: 70%;
+        height: 8vh;
+        padding: 0;
+        border-radius: 36px;
+        border: none;
+        background-image: url('./image/kakao.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .GoogleButton {
+        width: 70%;
+        height: 8vh;
+        margin-top: 4.5vh;
+        padding: 0;
+        border-radius: 36px;
+        border: none;
+        background-image: url('./image/google.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .noline {
+        text-decoration: none;
+    }
+
+    .background {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-image: url('https://img.freepik.com/free-vector/flat-spring-landscape_23-2148437528.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .notice {
+        margin-top: 5vh;
+        font-size: 80%;
+    }
+
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+
+    .buttons {
+        margin-top: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        margin-left: 1vw;
+        margin-right: 1vw;
+        height: 100%;
+        border-radius: 30px;
+    }
+
+    .KakaoButton {
+        margin-top: 7vh;
+        width: 90%;
+        height: 15vh;
+        padding: 0;
+        border-radius: 36px;
+        border: none;
+        background-image: url('./image/kakao.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .GoogleButton {
+        width: 90%;
+        height: 15vh;
+        margin-top: 4.5vh;
+        padding: 0;
+        border-radius: 36px;
+        border: none;
+        background-image: url('./image/google.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .noline {
+        text-decoration: none;
+    }
+
+    .background {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-image: url('https://img.freepik.com/free-vector/flat-spring-landscape_23-2148437528.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .notice {
+        margin-top: 5vh;
+        font-size: 100%;
+    }
+
+}
+
+@media all and (min-width: 1025px) {
+
+    .buttons {
+        margin-top: 40vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgba(255, 255, 255, 0.5);
+        margin-left: 1vw;
+        margin-right: 1vw;
+        height: 100%;
+        border-radius: 30px;
+        position: relative;
+    }
+
+    .KakaoButton {
+        margin-top: 4.5vh;
+        width: 50%;
+        height: 15vh;
+        padding: 0;
+        border-radius: 36px;
+        border: none;
+        background-image: url('./image/kakao.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 40vh;
+        margin-right: 2vw;
+        margin-left: 1vw;
+    }
+
+    .GoogleButton {
+        width: 50%;
+        height: 15vh;
+        margin-top: 4.5vh;
+        padding: 0;
+        border-radius: 36px;
+        border: none;
+        background-image: url('./image/google.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 40vh;
+        margin-right: 1vw;
+    }
+
+    .noline {
+        text-decoration: none;
+    }
+
+    .background {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-image: url('https://img.freepik.com/free-vector/flat-spring-landscape_23-2148437528.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .notice {
+        position: absolute;
+        align-content: center;
+        margin-top: 5vh;
+        font-size: 150%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+    }
+
+}
