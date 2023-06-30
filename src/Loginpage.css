@@ -5,7 +5,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: rgba(255, 255, 255, 0.7);
         margin-left: 1vw;
         margin-right: 1vw;
         height: 100%;
@@ -19,10 +19,14 @@
         padding: 0;
         border-radius: 36px;
         border: none;
-        background-image: url('./image/kakao.png');
+        background-image: url('./image/Rectangle\ 4152\(1\).png');
         background-repeat: no-repeat;
-        background-position: center;
         background-size: cover;
+        box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     .GoogleButton {
@@ -32,28 +36,47 @@
         padding: 0;
         border-radius: 36px;
         border: none;
-        background-image: url('./image/google.png');
+        background-image: url('./image/Rectangle\ 4154\(1\).png');
         background-repeat: no-repeat;
-        background-position: center;
         background-size: cover;
+        box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     .noline {
         text-decoration: none;
     }
 
-    .background {
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        background-image: url('https://img.freepik.com/free-vector/flat-spring-landscape_23-2148437528.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
     .notice {
         margin-top: 5vh;
         font-size: 80%;
+    }
+
+    .kakaologo {
+        margin-right: 6%;
+        width: 7%;
+        height: 45%;
+        margin-bottom: 0.5%;
+    }
+
+    .kakaotext {
+        width: auto;
+        height: auto;
+    }
+
+    .googlelogo {
+        margin-right: 6%;
+        width: 7%;
+        height: 45%;
+        margin-bottom: 0.5%;
+    }
+
+    .googletext {
+        width: auto;
+        height: auto;
     }
 
 }
@@ -68,7 +91,7 @@
         background-color: rgba(255, 255, 255, 0.5);
         margin-left: 1vw;
         margin-right: 1vw;
-        height: 100%;
+        height: auto;
         border-radius: 30px;
     }
 
@@ -79,7 +102,7 @@
         padding: 0;
         border-radius: 36px;
         border: none;
-        background-image: url('./image/kakao.png');
+        background-image: url('./image/Rectangle\ 4152\(1\).png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -92,7 +115,7 @@
         padding: 0;
         border-radius: 36px;
         border: none;
-        background-image: url('./image/google.png');
+        background-image: url('./image/Rectangle\ 4154\(1\).png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -102,18 +125,35 @@
         text-decoration: none;
     }
 
-    .background {
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        background-image: url('https://img.freepik.com/free-vector/flat-spring-landscape_23-2148437528.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
     .notice {
         margin-top: 5vh;
         font-size: 100%;
+    }
+
+    .kakaologo {
+        margin-right: 6%;
+        width: 7%;
+        height: 45%;
+        margin-bottom: 0.2%;
+    }
+
+    .kakaotext {
+        width: auto;
+        height: 20%;
+        margin-bottom: 1.7%;
+    }
+
+    .googlelogo {
+        margin-right: 6%;
+        width: 7%;
+        height: 45%;
+        margin-bottom: 0.5%;
+    }
+
+    .googletext {
+        width: auto;
+        height: 20%;
+        margin-bottom: 1.7%;
     }
 
 }
@@ -128,7 +168,7 @@
         background-color: rgba(255, 255, 255, 0.5);
         margin-left: 1vw;
         margin-right: 1vw;
-        height: 100%;
+        height: auto;
         border-radius: 30px;
         position: relative;
     }
@@ -140,7 +180,7 @@
         padding: 0;
         border-radius: 36px;
         border: none;
-        background-image: url('./image/kakao.png');
+        background-image: url('./image/Rectangle\ 4152\(1\).png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -156,7 +196,7 @@
         padding: 0;
         border-radius: 36px;
         border: none;
-        background-image: url('./image/google.png');
+        background-image: url('./image/Rectangle\ 4154\(1\).png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -168,15 +208,6 @@
         text-decoration: none;
     }
 
-    .background {
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        background-image: url('https://img.freepik.com/free-vector/flat-spring-landscape_23-2148437528.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
     .notice {
         position: absolute;
         align-content: center;
@@ -186,4 +217,66 @@
         left: 50%;
     }
 
+    .art {
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .kakaologo {
+        margin-right: 6%;
+        width: 7%;
+        height: 45%;
+        margin-bottom: 0.2%;
+    }
+
+    .kakaotext {
+        width: auto;
+        height: 20%;
+        margin-bottom: 1.7%;
+    }
+
+    .googlelogo {
+        margin-right: 6%;
+        width: 7%;
+        height: 45%;
+        margin-bottom: 0.5%;
+    }
+
+    .googletext {
+        width: auto;
+        height: 20%;
+        margin-bottom: 1.7%;
+    }
+
+}
+
+.background {
+    z-index: -2;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./image/image\ 19.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.art {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.facetickertext {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    top: 20vh;
 }
